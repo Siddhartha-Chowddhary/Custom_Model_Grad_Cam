@@ -43,8 +43,8 @@ def get_img_array(img_path, size):
 
     return array
 
-classes = ['car', 'bird','plane', 'trees', 'flowers', 
-           'flags', 'Nodule', 'painting', 'numberplate', 'rooms']
+classes = ['car', 'bird','plane', 'money', 'flowers', 
+           'flags', 'dog', 'cat', 'numberplate', 'fish']
 
 img = keras.preprocessing.image.load_img(img_path, target_size=img_size, color_mode = "grayscale")
 img_array = keras.preprocessing.image.img_to_array(img)
